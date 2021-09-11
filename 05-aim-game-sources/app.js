@@ -73,7 +73,7 @@ function setTime(value) {
 
 function finishGame() {
   timeEl.parentNode.classList.add("hide");
-  const result = `<h1>Ваш счет: <span class="primary">${score}</span></h1>`;
+  const result = `<h1>Your score: <span class="primary">${score}</span></h1>`;
   board.innerHTML = result;
   history.push(score);
   if (history) {
